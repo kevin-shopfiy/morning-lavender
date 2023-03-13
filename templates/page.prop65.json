@@ -1,0 +1,27 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "1663912098b684e4a8": {
+      "type": "featured-collection-pro96",
+      "settings": {
+        "title": "Prop 65 Warning",
+        "description": "<p>For more details regarding Proposition 65, visit this webiste: <a href=\"https:\/\/www.p65warnings.ca.gov\/\" target=\"_blank\"><strong>https:\/\/www.p65warnings.ca.gov\/<\/strong><\/a><\/p><p><\/p><p>The following is a notice to residents of California regarding Proposition 65:<\/p><p>California’s Proposition 65 entitles California consumers to special warnings for products that can contain chemicals known to the State of California to cause cancer and birth defects or other reproductive harm, if those products expose consumers to such chemicals above certain threshold levels. Some of our products such as wallets, handbags, purses, clutches, clothing, jewelry or shoes made of vinyl or imitation leather may contain traces of lead. In accordance with Proposition 65, we issue the following warning to our California customers:<\/p><p>WARNING: <em>Some<\/em> products sold online or in-store may contain chemicals that are known to the State of California to cause cancer and birth defects or other reproductive harm and may be included on the Proposition 65 chemical list. <\/p><p>To learn more on lead-related FAQs, visit <a href=\"http:\/\/www.atsdr.cdc.gov\/toxfaqs\/tf.asp?id=93&tid=22\" target=\"_blank\"><strong>here<\/strong><\/a>.<\/p>",
+        "home_featured_products": "new-arrivals",
+        "per_row": 4,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1663912098b684e4a8"
+  ]
+}

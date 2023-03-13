@@ -1,0 +1,19 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "1663913744b89f2317": {
+      "type": "product-finder",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1663913744b89f2317"
+  ]
+}

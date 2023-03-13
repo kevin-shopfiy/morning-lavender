@@ -1,0 +1,345 @@
+{% comment %} you can always turn off the speedupkernel{% endcomment %}
+{%- assign speedupkernel = true -%}
+{%- assign is_admin_interface = false -%}
+
+{%- if speedupkernel -%}
+    {%- if request.host contains 'myshopify.com' -%}
+        {%- assign is_admin_interface = true -%}
+    {%- else -%}
+        {%- assign is_admin_interface = false -%}
+    {%- endif -%}
+
+    {%- if request.host contains 'shopifypreview.com' -%}
+        {%- assign is_admin_interface = false -%}
+    {%- endif -%}
+
+    {%- if request.host contains 'gempages.net' -%}
+        {%- assign is_admin_interface = true -%}
+    {%- endif -%}	
+
+    {%- if request.path contains 'cart' -%}
+        {%- assign is_admin_interface = true -%}
+    {%- endif -%}
+
+    {%- if request.path contains 'checkout' -%}
+        {%- assign is_admin_interface = true -%}
+    {%- endif -%}
+
+
+    {%- if request.path contains 'blog' -%}
+      {%- assign speedupkernel = true -%}
+    {%- endif -%}
+{%- endif -%}
+<!doctype html>
+<html class="no-js" lang="{{ request.locale.iso_code }}" dir="{{ settings.text_direction }}">
+<head>
+  <script> let nodes = [];</script>
+ {% unless is_admin_interface %}
+ <script>
+   const observer = new MutationObserver(mutations => {
+     mutations.forEach(({ addedNodes }) => {
+       addedNodes.forEach(node => {
+         // For each added script tag
+         if(node.nodeType === 1 && node.tagName === 'SCRIPT') {
+           const src = node.src || ''
+           const type = node.type
+           if(node.innerText){
+             if(node.innerText.includes('window.BOOMR')) 
+             {
+               nodes.push(node);
+               console.log(node.innerText);
+               node.type = 'javascript/blocked'
+               // Unnecessary, but cleaner: remove the node from the DOM
+               if(node.parentElement){
+                 node.parentElement.removeChild(node)
+               }
+             }
+           }
+         }
+       })
+     })
+   })
+   // Starts the monitoring
+   observer.observe(document.documentElement, {
+     childList: true,
+     subtree: true
+   })
+ </script>
+ {% endunless %}
+ <script>
+   let isLOAD = false;
+ </script>
+  <!--MNTN Tracking Pixel-->
+<!-- INSTALL ON ALL PAGES OF SITE-->
+<img width="99999" height="99999" style="pointer-events: none; position: absolute; top: 0; left: 0; width: 99vw; height: 99vh; max-width: 99vw; max-height: 99vh;"  src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48c3ZnIHdpZHRoPSI5OTk5OXB4IiBoZWlnaHQ9Ijk5OTk5cHgiIHZpZXdCb3g9IjAgMCA5OTk5OSA5OTk5OSIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj48ZyBzdHJva2U9Im5vbmUiIGZpbGw9Im5vbmUiIGZpbGwtb3BhY2l0eT0iMCI+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9Ijk5OTk5IiBoZWlnaHQ9Ijk5OTk5Ij48L3JlY3Q+IDwvZz4gPC9zdmc+">
+
+<script type="text/javascript">
+	(function(){"use strict";var e=null,b="4.0.0",
+	n="34014",
+	additional="term=value",
+	t,r,i;try{t=top.document.referer!==""?encodeURIComponent(top.document.referrer.substring(0,2048)):""}catch(o){t=document.referrer!==null?document.referrer.toString().substring(0,2048):""}try{r=window&&window.top&&document.location&&window.top.location===document.location?document.location:window&&window.top&&window.top.location&&""!==window.top.location?window.top.location:document.location}catch(u){r=document.location}try{i=parent.location.href!==""?encodeURIComponent(parent.location.href.toString().substring(0,2048)):""}catch(a){try{i=r!==null?encodeURIComponent(r.toString().substring(0,2048)):""}catch(f){i=""}}var l,c=document.createElement("script"),h=null,p=document.getElementsByTagName("script"),d=Number(p.length)-1,v=document.getElementsByTagName("script")[d];if(typeof l==="undefined"){l=Math.floor(Math.random()*1e17)}h="dx.mountain.com/spx?"+"dxver="+b+"&shaid="+n+"&tdr="+t+"&plh="+i+"&cb="+l+additional;c.type="text/javascript";c.src=("https:"===document.location.protocol?"https://":"http://")+h;v.parentNode.insertBefore(c,v)})()
+</script>
+  <!-- Added by AVADA SEO Suite -->
+    {% include 'avada-seo' %}
+  <!-- /Added by AVADA SEO Suite -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="{{ settings.color_button }}">
+  <link rel="canonical" href="{{ canonical_url }}">
+  <link rel="preconnect" href="https://cdn.shopify.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.shopifycdn.com" crossorigin>
+  <link rel="dns-prefetch" href="https://productreviews.shopifycdn.com">
+  <link rel="dns-prefetch" href="https://ajax.googleapis.com">
+  <link rel="dns-prefetch" href="https://maps.googleapis.com">
+  <link rel="dns-prefetch" href="https://maps.gstatic.com">
+  {%- if settings.favicon != blank -%}
+    <link rel="shortcut icon" href="{{ settings.favicon | img_url: '32x32' }}" type="image/png" />
+  {%- endif -%}
+  {%- render 'seo-title' -%}
+  {%- if page_description -%}
+  <meta name="description" content="{{ page_description | escape }}">
+  {%- endif -%}
+  {%- render 'social-meta-tags' -%}
+  {%- render 'font-face' -%}
+  {{ 'theme.css' | asset_url | stylesheet_tag: preload: true }}
+  {{ 'custom.css' | asset_url | stylesheet_tag: preload: true }}
+  {%- render 'css-variables' -%}
+  <script>
+    document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
+
+    window.theme = window.theme || {};
+    theme.routes = {
+      home: "{{ routes.root_url }}",
+      cart: "{{ routes.cart_url | append: '.js' }}",
+      cartPage: "{{ routes.cart_url }}",
+      cartAdd: "{{ routes.cart_add_url | append: '.js' }}",
+      cartChange: "{{ routes.cart_change_url | append: '.js' }}",
+      search: "{{ routes.search_url }}",
+      predictive_url: "{{ routes.predictive_search_url }}"
+    };
+    theme.strings = {
+      soldOut: {{ 'products.product.sold_out' | t | json }},
+      unavailable: {{ 'products.product.unavailable' | t | json }},
+      inStockLabel: {{ 'products.product.in_stock_label' | t | json }},
+      oneStockLabel: {{ 'products.product.stock_label.one' | t: count: '[count]' | json }},
+      otherStockLabel: {{ 'products.product.stock_label.other' | t: count: '[count]' | json }},
+      willNotShipUntil: {{ 'products.product.will_not_ship_until' | t: date: '[date]' | json }},
+      willBeInStockAfter: {{ 'products.product.will_be_in_stock_after' | t: date: '[date]' | json }},
+      waitingForStock: {{ 'products.product.waiting_for_stock' | t | json }},
+      savePrice: {{ 'products.general.save_html' | t: saved_amount: '[saved_amount]' | json }},
+      cartEmpty: {{ 'cart.general.empty' | t | json }},
+      cartTermsConfirmation: {{ 'cart.general.terms_confirm' | t | json }},
+      searchCollections: {{ 'general.search.collections' | t | json }},
+      searchPages: {{ 'general.search.pages' | t | json }},
+      searchArticles: {{ 'general.search.articles' | t | json }},
+      productFrom: {{ 'products.general.from_text_html' | t: price: '' | json }},
+      maxQuantity: {{ 'cart.general.max_quantity' | t: quantity: '[quantity]', title: '[title]' | json }}
+    };
+    theme.settings = {
+      cartType: {{ settings.cart_type | json }},
+      isCustomerTemplate: {% if request.page_type contains 'customers/' %}true{% else %}false{% endif %},
+      moneyFormat: {{ shop.money_format | json }},
+      saveType: {{ settings.product_save_type | json }},
+      productImageSize: {{ settings.product_grid_image_size | json }},
+      productImageCover: {{ settings.product_grid_image_fill }},
+      predictiveSearch: {{ settings.predictive_search_enabled }},
+      predictiveSearchType: {{ settings.search_type | json }},
+      predictiveSearchVendor: {{ settings.predictive_search_show_vendor | json }},
+      predictiveSearchPrice: {{ settings.predictive_search_show_price | json }},
+      quickView: {{ settings.quick_shop_enable }},
+      themeName: 'Impulse',
+      themeVersion: "7.2.0"
+    };
+  </script>
+  {% include "__opt-system-headers" %}
+  {{ content_for_header }}
+
+  <script defer type="noscript-s" data-src="{{ 'vendor-scripts-v11.js' | asset_url | split: '?' | first }}"></script>
+
+  {%- if shop.enabled_currencies.size > 1 -%}
+    <link rel="stylesheet" href="{{ 'country-flags.css' | asset_url | split: '?' | first }}">
+  {%- endif -%}
+
+  <script defer type="noscript-s" data-src="{{ 'theme.js' | asset_url }}"></script>
+
+  {%- if request.page_type contains 'customers/' -%}
+    <script src="{{ 'shopify_common.js' | shopify_asset_url }}" defer="defer"></script>
+  {%- endif -%}
+
+  {% if request.design_mode %}
+    <script defer type="noscript-s" data-src="https://api.archetypethemes.co/design-mode.js"></script>
+  {% endif %}
+   <!-- Hotjar-->
+	<script type="noscript-s">
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:2213908,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+	</script>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script defer type="noscript-s" data-src="https://www.googletagmanager.com/gtag/js?id=G-FYPDXZQ6NR"></script>
+  <script type="noscript-s">
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-FYPDXZQ6NR');
+  </script>
+
+  <!-- secomapp affiliate -->
+	<script>var scaaffCheck = false;</script>
+	{{ 'sca_affiliate.js' | asset_url | script_tag }}
+
+  {% render 'gsf-conversion-pixels' %}
+  {% comment %} klaviyo bis {% endcomment %}
+  <script defer type="noscript-s" data-src="https://a.klaviyo.com/media/js/onsite/onsite.js"></script>
+  <script type="noscript-s">
+      var klaviyo = klaviyo || [];
+      klaviyo.init({
+        account: "Vutgmf",
+        list: "UAEb3H",
+        platform: "shopify",
+        exclude_on_tags: "gift-card",
+        display_on_policy_continue: true
+      });
+      klaviyo.enable("backinstock",{ 
+      trigger: {
+        product_page_text: "Not in stock at the moment. Let me know when's its back",
+        product_page_class: "btn",
+        product_page_text_align: "center",
+        product_page_margin: "0px",
+        replace_anchor: true
+      },
+      modal: {
+      headline: "{product_name}",
+      body_content: "Register to receive a notification when this item comes back in stock. Please note that not every item will be restocked.",
+      email_field_label: "Email",
+      button_label: "Notify me when available",
+      subscription_success_label: "You're in! We'll let you know when it's back.",
+      footer_content: "Don't worry, we hate spam too. You'll only receive an email when this product is back in stock. But, join our mailing list to receive discounts, previews, and early access.",
+      additional_styles: "@import url('https://fonts.googleapis.com/css?family=Helvetica+Neue');",
+      drop_background_color: "#000",
+      background_color: "#fff",
+      text_color: "#222",
+      button_text_color: "#fff",
+      button_background_color: "#76697a",
+      close_button_color: "#ccc",
+      error_background_color: "#fcd6d7",
+      error_text_color: "#C72E2F",
+      success_background_color: "#d3efcd",
+      success_text_color: "#1B9500"
+      }
+    });
+  </script>
+ <!--begin-boost-pfs-filter-css-->
+   {% render 'boost-pfs-style' %}
+ <!--end-boost-pfs-filter-css-->
+</head>
+
+<body class="template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }}{% if request.path == '/challenge' %} template-challange{% endif %}" data-center-text="{{ settings.type_body_align_text }}" data-button_style="{{ settings.button_style }}" data-type_header_capitalize="{{ settings.type_header_capitalize }}" data-type_headers_align_text="{{ settings.type_headers_align_text }}" data-type_product_capitalize="{{ settings.type_product_capitalize }}" data-swatch_style="{{ settings.swatch_style }}" {% if settings.disable_animations %}data-disable-animations="true"{% endif %}>
+{% if content_for_header contains 'convert_global' %}
+    {% render 'convert' %}
+  {% endif %}
+  <a class="in-page-link visually-hidden skip-link" href="#MainContent">{{ 'general.accessibility.skip_to_content' | t }}</a>
+
+  <div id="PageContainer" class="page-container">
+    <div class="transition-body">
+
+    {%- sections 'header-group' -%}
+    {%- sections 'popup-group' -%}
+
+      <main class="main-content" id="MainContent">
+        {{ content_for_layout }}
+      </main>
+
+    {%- sections 'footer-group' -%}
+
+    </div>
+  </div>
+<style>
+    .jdgm-carousel--focused-theme .jdgm-carousel-item__left-column {
+    padding: 0 12px!important;
+    width: 100%!important;
+    display: block!important;
+    margin-bottom: 8px!important;
+  }
+ .jdgm-carousel--focused-theme .jdgm-carousel-item__review-wrapper {
+    width: 100%!important;
+    display: block!important;
+  }
+ </style>
+  {%- liquid
+    render 'video-modal'
+    render 'photoswipe-template'
+    render 'tool-tip'
+  -%}
+ 
+  <style>
+    :root {
+      --main-gift-accent-color: #A08194 !important;
+      --main-gift-accent-color-font: #ffffff !important;
+      --main-gift-outline-color-font: #000000 !important;
+      --main-gift-border-radius: 2px !important;
+      --main-gift-border-radius-small: 1px !important;
+    }
+    .sc-giftr-card__add button {
+      transition-delay: .25s;
+      transition: background .2s ease 0s;
+    }
+    .sc-giftr-card__add button:hover {
+      background: var(--colorBtnPrimaryLight);
+    }
+    .sc-card-tabs__container p {
+      padding-top: 15px;
+    }
+    .sc-footer a {
+     font-size: 0 !important;
+     display: flex;
+     align-items: center;
+     margin: 0;
+     padding: 0;
+     line-height: initial;
+   }
+  .sc-footer a:before {
+    content: ' ';
+    display: block;
+    width: 400px;
+    height: 34px;
+    background: center center url(https://cdn.shopify.com/s/files/1/0424/4065/files/morning-lavender-logo_400x@2x.webp?v=1663225011) no-repeat;
+    background-size: cover;
+    margin: auto;
+  }
+  </style>
+ <script defer type="noscript-s" data-src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script>
+    document.querySelector('.btn').removeAttribute('disabled');
+  </script>
+  
+  
+  {% comment %} Image markup used when building product grid item via JS {% endcomment %}
+  <template id="naturalImageMarkup">
+    <div class="image-wrap" style="height: 0;">
+      <img class="grid-product__image" width height src srcset loading="lazy" alt>
+    </div>
+  </template>
+  <template id="fixedRatioImageMarkup">
+    <div class="grid__image-ratio">
+      <img width height src srcset loading="lazy" alt>
+    </div>
+  </template>
+  <template id="articleImageMarkup">
+    <img width height src loading="lazy">
+  </template>
+
+ <!--begin-boost-pfs-js-->
+   {% render 'boost-pfs' %}
+ <!--end-boost-pfs-js-->
+<script src="{{ "custom_op.js" | asset_url }}" ></script> 
+</body>
+</html>

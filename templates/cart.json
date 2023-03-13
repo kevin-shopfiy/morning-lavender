@@ -1,0 +1,26 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-cart",
+      "settings": {
+      }
+    },
+    "16636115674cf52fcb": {
+      "type": "cross-sell",
+      "settings": {
+      }
+    },
+    "recently-viewed": {
+      "type": "recently-viewed",
+      "disabled": true,
+      "settings": {
+        "recent_count": 5
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16636115674cf52fcb",
+    "recently-viewed"
+  ]
+}

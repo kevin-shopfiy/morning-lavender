@@ -1,0 +1,195 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "04baef94-de3b-4416-8abf-228182206965": {
+      "type": "advanced-content",
+      "blocks": {
+        "6f49d001-034f-418d-b890-1a6f96d56c1d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/308186956_387249860275238_3333202839664740226_n.jpg",
+            "link": "",
+            "width": "33%",
+            "alignment": "center"
+          }
+        },
+        "template--15080516714607__04baef94-de3b-4416-8abf-228182206965-1666721179d877a13c-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h2>Our Locations<\/h2><p>We currently have two locations in Southern California and we'd love for you to visit! <\/br><\/br>One in Old Town Tustin, located in South Orange County and the other in Huntington Beach, right along the famous Pacific Coast Highway. <br><br>We'd love for you stop by and say hi to any of our amazing team members and be inspired or find your next cute outfit.<\/p>",
+            "width": "66%",
+            "alignment": "center"
+          }
+        },
+        "1f8581f8-17b7-42ff-ae00-652bcce7a054": {
+          "type": "liquid",
+          "settings": {
+            "code": "<hr>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "6f49d001-034f-418d-b890-1a6f96d56c1d",
+        "template--15080516714607__04baef94-de3b-4416-8abf-228182206965-1666721179d877a13c-1",
+        "1f8581f8-17b7-42ff-ae00-652bcce7a054"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
+    "43257c5b-90e5-49d4-880c-23c8d2b0cfcd": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/299618714_569963244855190_6126923094887048155_n.jpg",
+        "image2": "shopify:\/\/shop_images\/312091055_832139477816899_1815188696917716534_n.jpg",
+        "subtitle": "OLD TOWN",
+        "title": "TUSTIN",
+        "text": "<p>330 El Camino Real, Tustin, CA 92780<\/p><p>Come visit our unique cafe and boutique concept located in the heart of Old Town Tustin. Stop in for a dress, skirt, or cute top and leave with our irresistable Lavender Latte! Stay for some tea and catching up, or treat yourself to alone time and some retail therapy. Our cafe\/boutique is peaceful, inspiring, and welcoming!<\/p><p><\/p><p>www.morninglavendercafe.com<br\/>714-486-1429<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "66%",
+        "layout": "right",
+        "divider": false
+      }
+    },
+    "81eefc50-c5d2-41c0-9137-d052efe1df5b": {
+      "type": "text-columns",
+      "disabled": true,
+      "blocks": {
+        "template--15080516714607__81eefc50-c5d2-41c0-9137-d052efe1df5b-16662009350bedf123-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/308186956_387249860275238_3333202839664740226_n.jpg",
+            "image_width": 650,
+            "title": "TUSTIN",
+            "text": "<p>Located in Old Town Tustin<\/p><p>330 El Camino Real, Tustin, CA 92780<\/p><p>Come visit our unique cafe and boutique concept located in the heart of Old Town Tustin. Stop in for a dress, skirt, or cute top and leave with our irresistable Lavender Latte! Stay for some tea and catching up, or treat yourself to alone time and some retail therapy. Our cafe\/boutique is peaceful, inspiring, and welcoming!<\/p><p><\/p><p>www.morninglavendercafe.com<br\/>714-486-1429<\/p>",
+            "button_label": "Instagram",
+            "button_link": "https:\/\/www.instagram.com\/morninglavenderoc\/"
+          }
+        },
+        "template--15080516714607__81eefc50-c5d2-41c0-9137-d052efe1df5b-16662009350bedf123-1": {
+          "type": "text_block",
+          "disabled": true,
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/221015_ML_027.jpg",
+            "image_width": 650,
+            "title": "HUNTINGTON BEACH",
+            "text": "<p>Located on the 1st floor of Pacific City Mall.<\/p><p>21034 Pacific Coast Highway, Suite 108<\/p><p>Come visit our newest boutique by the beach! Our team is ready to welcome you and help you find your next cute outfit for going out, a special occasion, or just everyday wear! Free parking validation in the garage.<\/p><p>www.morninglavender.com<br\/>714-369-2577<\/p>",
+            "button_label": "Instagram",
+            "button_link": "https:\/\/www.instagram.com\/shopmorninglavender\/"
+          }
+        }
+      },
+      "block_order": [
+        "template--15080516714607__81eefc50-c5d2-41c0-9137-d052efe1df5b-16662009350bedf123-0",
+        "template--15080516714607__81eefc50-c5d2-41c0-9137-d052efe1df5b-16662009350bedf123-1"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "divider": false
+      }
+    },
+    "796cbb56-b16e-4d76-a44a-a10c8bc32b92": {
+      "type": "map",
+      "settings": {
+        "map_title": "old town TUSTIN",
+        "address": "<p>BOUTIQUE & CAFE<\/p><p>330 El Camino Real<br\/>Tustin, CA 92780<\/p><p>Mon - Wed, 9:00am - 3:00pm<br\/>Thu-Sun, 9:00am - 6:00pm<\/p><p>714-486-1429<\/p>",
+        "map_address": "330 El Camino Real, Tustin, CA 92780",
+        "api_key": "AIzaSyAUnCOdufzku4IRpWdUiLHOPAh99yIX-SY",
+        "show_button": true
+      }
+    },
+    "badfecca-9b87-4a72-83af-dd493a0c58a0": {
+      "type": "background-image-text",
+      "disabled": true,
+      "settings": {
+        "subtitle": "Impressive",
+        "title": "Large image with text box",
+        "text": "<p>Pair large text with a full-width image to draw attention to an important detail of your brand or product line.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "layout": "left",
+        "height": 550,
+        "framed": false,
+        "parallax": true,
+        "parallax_direction": "top"
+      }
+    },
+    "971bd0dc-6338-4abe-9ff5-b70d00268f2b": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/221015_ML_027.jpg",
+        "image2": "shopify:\/\/shop_images\/221015_ML_164.jpg",
+        "subtitle": "PACIFIC CITY",
+        "title": "Huntington Beach",
+        "text": "<p>Located on the 1st floor of Pacific City Mall.<\/p><p>21034 Pacific Coast Highway, Suite 108<\/p><p>Come visit our newest boutique by the beach! Our team is ready to welcome you and help you find your next cute outfit for going out, a special occasion, or just everyday wear! Free parking validation in the garage.<\/p><p>www.morninglavender.com<br\/>714-369-2577<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "33",
+        "layout": "left",
+        "divider": false
+      }
+    },
+    "17daa344-bb38-4a23-99c7-84070e6b9539": {
+      "type": "text-columns",
+      "disabled": true,
+      "blocks": {
+        "template--15080516714607__17daa344-bb38-4a23-99c7-84070e6b9539-1666689260393aec98-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_width": 150,
+            "title": "Huntington Beach",
+            "text": "<p>Located on the 1st floor of Pacific City Mall.<\/p><p>21034 Pacific Coast Highway, Suite 108<\/p><p>Come visit our newest boutique by the beach! Our team is ready to welcome you and help you find your next cute outfit for going out, a special occasion, or just everyday wear! Free parking validation in the garage.<\/p><p>www.morninglavender.com<br\/>714-369-2577<\/p>",
+            "button_label": "Optional button",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15080516714607__17daa344-bb38-4a23-99c7-84070e6b9539-1666689260393aec98-0"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "divider": false
+      }
+    },
+    "bbd6ae15-1d07-4162-b0f5-41144f9b6029": {
+      "type": "map",
+      "settings": {
+        "map_title": "pacific city",
+        "address": "<p>BOUTIQUE ONLY<\/p><p>21034 Pacific Coast Highway<br\/>Suite 108<br\/>Huntington Beach, CA 92648<\/p><p>Mon - Sat, 10:00am - 7:00pm<br\/>Sun, 11:00am - 6:00pm<\/p><p>714-369-2577<\/p>",
+        "map_address": "21034 PACIFIC COAST HIGHWAY, HUNTINGTON BEACH, CA 92648",
+        "api_key": "AIzaSyAUnCOdufzku4IRpWdUiLHOPAh99yIX-SY",
+        "show_button": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "04baef94-de3b-4416-8abf-228182206965",
+    "43257c5b-90e5-49d4-880c-23c8d2b0cfcd",
+    "81eefc50-c5d2-41c0-9137-d052efe1df5b",
+    "796cbb56-b16e-4d76-a44a-a10c8bc32b92",
+    "badfecca-9b87-4a72-83af-dd493a0c58a0",
+    "971bd0dc-6338-4abe-9ff5-b70d00268f2b",
+    "17daa344-bb38-4a23-99c7-84070e6b9539",
+    "bbd6ae15-1d07-4162-b0f5-41144f9b6029"
+  ]
+}

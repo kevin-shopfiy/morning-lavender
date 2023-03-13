@@ -1,0 +1,366 @@
+{
+  "sections": {
+    "slideshow": {
+      "type": "slideshow",
+      "blocks": {
+        "abf8aeef-8f02-474c-9170-1e935ae1269f": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "top_subheading": "",
+            "title": "",
+            "title_size": 80,
+            "subheading": "",
+            "link": "shopify:\/\/collections\/all",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/HolidaySale_Slider-01_3.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/HolidaySale_Slider-02_5.jpg",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        },
+        "slideshow-0": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "",
+            "title_size": 100,
+            "subheading": "",
+            "link": "shopify:\/\/collections\/new-arrivals",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "#ffffff",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/03_01_Slider-01.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/03_01_Slider-02.jpg",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "abf8aeef-8f02-474c-9170-1e935ae1269f",
+        "slideshow-0"
+      ],
+      "settings": {
+        "section_height": "natural",
+        "mobile_height": "auto",
+        "parallax": false,
+        "style": "dots",
+        "autoplay": true,
+        "autoplay_speed": 8,
+        "lazyload_images": true
+      }
+    },
+    "db083108-b3b3-40c6-a82f-fe2608a939d4": {
+      "type": "promo-grid",
+      "disabled": true,
+      "blocks": {
+        "template--15092684324975__db083108-b3b3-40c6-a82f-fe2608a939d4-1669086035e3fb3813-0": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "",
+            "heading": "",
+            "textarea": "",
+            "cta_text1": "$10",
+            "cta_link1": "shopify:\/\/collections\/black-friday-sale-10",
+            "cta_text2": "$20",
+            "cta_link2": "shopify:\/\/collections\/black-friday-sale-20",
+            "image": "shopify:\/\/shop_images\/rsz_blackfriday_slider-01.jpg",
+            "video_url": "",
+            "width": "100",
+            "height": 500,
+            "text_size": 100,
+            "text_align": "vertical-bottom horizontal-center",
+            "color_accent": "#a18da9",
+            "boxed": false,
+            "framed": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15092684324975__db083108-b3b3-40c6-a82f-fe2608a939d4-1669086035e3fb3813-0"
+      ],
+      "settings": {
+        "full_width": true,
+        "gutter_size": 0,
+        "space_above": false,
+        "space_below": false,
+        "lazyload_images": true
+      }
+    },
+    "1663234814d84af526": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "GoodBuy winter sale",
+        "home_featured_products": "goodbuy-winter-sale",
+        "per_row": 5,
+        "rows": 2,
+        "mobile_scrollable": false,
+        "view_all": true,
+        "divider": true
+      }
+    },
+    "featured-collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Shop our newest arrivals!",
+        "home_featured_products": "new-arrivals",
+        "per_row": 4,
+        "rows": 3,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
+    },
+    "1663305353d6993154": {
+      "type": "judgeme_carousel_section",
+      "settings": {
+        "maxwidth": 1080
+      }
+    },
+    "166322662032cf860c": {
+      "type": "text-and-image",
+      "custom_css": [
+        ".feature-row__image {max-width: 300px; height: auto !important; margin-left: 20%;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/210407_KLP.png",
+        "image_mask": "square",
+        "image2_mask": "none",
+        "subtitle": "Kim Le, Founder",
+        "title": "Good morning Gorgeous!",
+        "text": "<p>Welcome! My name is Kim Le and I started Morning Lavender as a boutique inspired by all things pretty. All of our pieces are personally curated for the every day woman—a collection that is classic, affordable and feminine. We do the searching and styling for you to make your wardrobe cuter and prettier! Thank you for being here and please reach out if there's anything my team or I can do!<\/p>",
+        "button_label": "Shop bestsellers",
+        "button_link": "shopify:\/\/collections\/bestsellers",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "280px",
+        "layout": "left",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
+    },
+    "1663233184f702e36e": {
+      "type": "featured-collections",
+      "blocks": {
+        "1663233184a74c92e2-0": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "bestsellers",
+            "title": "",
+            "focal_point": "center center"
+          }
+        },
+        "1663233184a74c92e2-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "new-arrivals",
+            "title": "",
+            "focal_point": "center center"
+          }
+        },
+        "1663233184a74c92e2-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "dresses",
+            "title": "",
+            "focal_point": "center center"
+          }
+        },
+        "1663233184a74c92e2-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "tops",
+            "title": "",
+            "focal_point": "center center"
+          }
+        },
+        "25f374de-0234-4915-83e8-ed2541d27976": {
+          "type": "collection",
+          "settings": {
+            "collection": "bridal-collection",
+            "title": "Bridal",
+            "focal_point": "top center"
+          }
+        },
+        "9548382a-b3d2-4bf2-adb5-8c2d455936ed": {
+          "type": "collection",
+          "settings": {
+            "collection": "special-occasion",
+            "title": "",
+            "focal_point": "center center"
+          }
+        },
+        "6d14c8af-81f7-40b6-97be-7b256115deec": {
+          "type": "collection",
+          "settings": {
+            "collection": "skirts",
+            "title": "",
+            "focal_point": "center center"
+          }
+        },
+        "c9af7282-ff5e-417d-9103-def361d8f647": {
+          "type": "collection",
+          "settings": {
+            "collection": "mommy-me",
+            "title": "",
+            "focal_point": "center center"
+          }
+        },
+        "432ddc8c-a428-43ad-b5f4-906ec6bf627e": {
+          "type": "collection",
+          "settings": {
+            "collection": "accessories",
+            "title": "",
+            "focal_point": "center center"
+          }
+        },
+        "129d16cb-ebdb-4228-be4f-1120c63b4ec0": {
+          "type": "collection",
+          "settings": {
+            "collection": "marketplace",
+            "title": "MARKETPLACE",
+            "focal_point": "center center"
+          }
+        },
+        "ea6efcea-c32c-4072-b3c0-923c323f2308": {
+          "type": "collection",
+          "settings": {
+            "collection": "gift-guide-1",
+            "title": "",
+            "focal_point": "center center"
+          }
+        },
+        "694d9f5c-03d3-40f2-bbf4-f64e4ba0de7f": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "holiday-collection",
+            "title": "",
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "1663233184a74c92e2-0",
+        "1663233184a74c92e2-1",
+        "1663233184a74c92e2-2",
+        "1663233184a74c92e2-3",
+        "25f374de-0234-4915-83e8-ed2541d27976",
+        "9548382a-b3d2-4bf2-adb5-8c2d455936ed",
+        "6d14c8af-81f7-40b6-97be-7b256115deec",
+        "c9af7282-ff5e-417d-9103-def361d8f647",
+        "432ddc8c-a428-43ad-b5f4-906ec6bf627e",
+        "129d16cb-ebdb-4228-be4f-1120c63b4ec0",
+        "ea6efcea-c32c-4072-b3c0-923c323f2308",
+        "694d9f5c-03d3-40f2-bbf4-f64e4ba0de7f"
+      ],
+      "settings": {
+        "title": "Shop by category",
+        "divider": false,
+        "per_row": 5,
+        "enable_gutter": true
+      }
+    },
+    "1663252557d31f4ad6": {
+      "type": "promo-grid",
+      "blocks": {
+        "1663252557bfc527a1-0": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "",
+            "heading": "NEW ARRIVALS",
+            "textarea": "New year, new you",
+            "cta_text1": "Shop New",
+            "cta_link1": "shopify:\/\/collections\/holiday-collection",
+            "cta_text2": "",
+            "cta_link2": "",
+            "image": "shopify:\/\/shop_images\/141_-_2022-12-14-Morning-Lavender-Sydney-Tia-Off-Shoulder-Maxi-Dress_f4707144-75db-4b2b-897b-4aed3df4d2c7.jpg",
+            "video_url": "",
+            "width": "50",
+            "height": 800,
+            "text_size": 100,
+            "text_align": "vertical-bottom horizontal-center",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
+            "framed": true
+          }
+        },
+        "1663252557bfc527a1-1": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "",
+            "heading": "BESTSELLERS",
+            "textarea": "Customer favorites that flatter & fit",
+            "cta_text1": "Shop Bestsellers",
+            "cta_link1": "",
+            "cta_text2": "",
+            "cta_link2": "",
+            "image": "shopify:\/\/shop_images\/v-neck-tirered-dress.png",
+            "video_url": "",
+            "width": "50",
+            "height": 800,
+            "text_size": 100,
+            "text_align": "vertical-bottom horizontal-center",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
+            "framed": true
+          }
+        }
+      },
+      "block_order": [
+        "1663252557bfc527a1-0",
+        "1663252557bfc527a1-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "gutter_size": 30,
+        "space_above": true,
+        "space_below": true,
+        "lazyload_images": true
+      }
+    },
+    "1663254381316f00a9": {
+      "type": "advanced-content",
+      "blocks": {
+        "16632543817879f003-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<div class=\"page-width\">\n<div class=\"section-header\">\n        <h2 class=\"section-header__title\">SHOP INSTAGRAM<\/h2>\n<div class=\"eLIB--grid__singleOption\">\n<link rel=\"stylesheet\" href=\"https:\/\/linkin.bio\/css\/gallery.min.css\">\n<iframe src=\"https:\/\/linkin.bio\/shopmorninglavender\" width=\"100%\" height=\"1165px\" frameborder=\"0\"><\/iframe>\n<\/div>\n<\/div>\n<\/div>",
+            "width": "100%",
+            "alignment": "top-middle"
+          }
+        }
+      },
+      "block_order": [
+        "16632543817879f003-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true,
+        "lazyload_images": true
+      }
+    }
+  },
+  "order": [
+    "slideshow",
+    "db083108-b3b3-40c6-a82f-fe2608a939d4",
+    "1663234814d84af526",
+    "featured-collection",
+    "1663305353d6993154",
+    "166322662032cf860c",
+    "1663233184f702e36e",
+    "1663252557d31f4ad6",
+    "1663254381316f00a9"
+  ]
+}

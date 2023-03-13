@@ -1,0 +1,102 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "16636514237ee4c690": {
+      "type": "advanced-content",
+      "blocks": {
+        "1663651423992e7402-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<style>\n.video-wrapper iframe, .video-wrapper video {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: auto !important;\n  height: 100%;\n  max-width: 226px !important;\n}\n<\/style>\n<div>\n  <div class=\"feature-row aos-init aos-animate\" data-aos=\"\" style=\"margin:0;\">\n    <div class=\"feature-row__item feature-row__text feature-row__text--right\">\n      <a class=\"h3\" href=\"https:\/\/morninglavender.com\/\" target=\"_blank\" data-live-text-setting=\"section.page-return-policy-template.block.98c49ea1-c9fa-431e-a26b-82f627d1a013.title\/escape\">INSTANT EXCHANGES FOR FREE<\/a>\n        <p class=\"h5\" data-live-text-setting=\"section.page-return-policy-template.block.98c49ea1-c9fa-431e-a26b-82f627d1a013.subtitle\">\n          ON THE FENCE? NOT SURE WHAT SIZE TO BUY? NO PROBLEM!\n        <\/p>\n        <div class=\"rte featured-row__subtext\" data-live-text-setting=\"section.page-return-policy-template.block.98c49ea1-c9fa-431e-a26b-82f627d1a013.text\">\n          <p>No exchange fees, not even on your return shipping. We’re dedicated to helping you find the wardrobe of your dreams! Exchanges are instant. No reason needed. You don’t have to wait until you return the items.<\/p>\n          <p class=\"h4\">EXCHANGE FOR ANYTHING ON THE SITE AS A STORE CREDIT!<\/p>\n          <ul>\n            <li>Different size<\/li>\n            <li>Different color<\/li>\n            <li>Different item all together<\/li>\n          <\/ul>\n          <p>You can exchange for anything on our site of equal value or simply pay the difference.<\/p>\n        <\/div>\n      <a href=\"https:\/\/returns.morninglavender.com\/\" class=\"btn\" data-live-text-setting=\"section.page-return-policy-template.block.98c49ea1-c9fa-431e-a26b-82f627d1a013.button_label\">\n        Start the exchange\n      <\/a>\n    <\/div>\n    <div class=\"feature-row__item\">\n      <div style=\"margin: 0 auto; max-width: 750px;\"><iframe id=\"YouTubeVideo-e370afc3-f255-4d31-97ef-b7f7b29a2e3c\" class=\"video-div\" data-type=\"youtube\" data-video-id=\"Og3OSggJU4w\" frameborder=\"0\" allowfullscreen=\"1\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" title=\"YouTube video player\" width=\"1280\" height=\"720\" src=\"https:\/\/www.youtube.com\/embed\/Og3OSggJU4w?autohide=0&cc_load_policy=0&controls=0&fs=0&iv_load_policy=3&modestbranding=1&playsinline=1&rel=0&widget_referrer=https%3A%2F%2Fmorning-lavender.myshopify.com%2F%3Foseid%3DgnFYFVpUBkj2S4vExA7z5wVW&enablejsapi=1&origin=https%3A%2F%2Fmorning-lavender.myshopify.com&widgetid=5\" tabindex=\"-1\"><\/iframe><\/div>\n    <\/div>\n  <\/div>\n<\/div>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "1663651423992e7402-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
+    "16636522970f6485d7": {
+      "type": "advanced-content",
+      "blocks": {
+        "1663652297fb305003-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h1>RETURNS & EXCHANGE POLICY<\/h1>\n<h3>EASY EXCHANGES WITHIN 30 DAYS!<\/h3>\n<p>We are now happy to offer exchanges! Customers can request an exchange for the same item in a different size or color, given inventory and availability, from within our Returns Center! Please keep in mind exchange items are not reserved until the original item has been placed in the mail. Customers MUST use our <a href=\"https:\/\/returns.morninglavender.com\/\" target=\"_blank\">Return Center<\/a> to process an exchange and the shipping label provided. Shipping is included for all exchange orders!<\/p>\n<h3>EASY RETURNS WITHIN 30 DAYS<\/h3>\n<p>We take pride in customer satisfaction at Morning Lavender and if for any reason you do not love your purchase, please return the item in its original and unworn condition within 30 days of the postmarked delivery date for a full refund unless marked Final Sale, less return shipping costs.<\/p>\n<p>Returns will be processed within 6-10 weekdays (not including holidays) after they have been received.<\/p>\n<p class=\"h4\" style=\"background-color:rgba(160,129,148,0.1);padding:15px;\">Please note that if you create a shipping label through our Returns Center, $7 will be deducted from your refund to cover the return shipping costs.<\/p>\n<p>Original shipping charges are non-refundable. Merchandise must be returned in original condition (unworn, unwashed, unaltered) with original tags attached. We reserve the right to refuse any returns received 30 days after the post marked delivery date or if we determine that the merchandise does not qualify for a return. Reasons we may refuse the return include but are not limited to: if it has obviously been worn (e.g. sweat stains, grass stains, dirt stains, strong odors), if it has been modified or altered, or if it has excessive animal hair that is unable to be removed. If your return is refused, we will ship the item back to you at no extra charge to you. Refunds are issued back to the original form of payment or as store credit.<\/p>\n<h3>IF YOU WOULD LIKE STORE CREDIT<\/h3>\n<p>If you would like store credit instead of having the refund issued to your original form of payment, please create a shipping label from the carrier of your choice and affix it to your package. Do not use our Returns Center or the $7 for the shipping label will be deducted from your store credit amount. We recommend using a known carrier such as USPS, UPS, or Fedex with a tracking number to ensure your package is not lost. You are responsible for return postage.<\/p>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "1663652297fb305003-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
+    "16636518339cca22ed": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/returns-info_large_c0521103-9ec4-4ae8-ad56-9ea8327b9c95.webp",
+        "subtitle": "EXCHANGE FOR ANYTHING ON THE SITE AS A STORE CREDIT!",
+        "title": "START YOUR RETURN",
+        "text": "<p>Please note that if you create a shipping label through our Returns Center, $7 will be deducted from your refund to cover the return shipping costs.<\/p>",
+        "button_label": "Start your return",
+        "button_link": "https:\/\/returns.morninglavender.com\/",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "500",
+        "layout": "right",
+        "divider": false
+      }
+    },
+    "16636527649eae5726": {
+      "type": "advanced-content",
+      "blocks": {
+        "1663652764edc16bd1-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h3>SEND US YOUR RETURN ITEM<\/h3><p>Morning Lavender Returns<br>\n15431 Red Hill Ave., Ste. D<br>\nTustin, CA 92780<\/p>\n<p>Use a known carrier such as USPS, UPS, or Fedex with a tracking number to ensure your package is not lost. You are responsible for return postage.<\/p>\n<p class=\"h4\" style=\"background-color:rgba(160,129,148,0.1);padding:15px;\">Please note that if you create a shipping label through our Returns Center, $7 will be deducted from your refund to cover the return shipping costs.<\/p>\n<p>Please send return items with the original order\/return slip. If your order\/return slip is lost, please print out your order confirmation email and include it with your return package. <\/p>\n<p>Please keep tracking information for your return package until the refund amount has been posted to your account. If you choose to ship the item back with a label created outside of our Returns Center, you will not receive an email when we have received your package at our warehouse, so please check your tracking number to check on the location of your return.<\/p>\n<p>We do not honor price adjustments.<\/p>\n<h3>RETURNING ITEMS TO THE Orange County Location<\/h3>\n<p>Purchases made online can be returned\/exchanged in our Orange County Morning Lavender retail stores. Please bring the item(s) you would like to return or exchange along with your original invoice or a printed copy of your order confirmation e-mail.<\/p>\n<p>330 El Camino Real<br>\nTustin, CA 92780<br>\nOpen 7 days a week, 10am to 7pm<\/p>\n<p>We do not accept drop off returns at our warehouse. To ensure we have clear documentation of each return and please mail returns and exchanges to:<\/p>\n<p>Morning Lavender Returns<br>\n15431 Red Hill Ave., Ste. D<br>\nTustin, CA 92780<\/p>\n<h3>INTERNATIONAL & APO ORDERS<\/h3>\n<p>If you are returning an item that was shipped to an APO or outside of the US, please create a shipping label from the carrier of your choice and affix it to your package. Our Returns Center is unable to process returns for APO or International addresses. We recommend using a known carrier such as USPS, UPS, or Fedex with a tracking number to ensure your package is not lost. You are responsible for return postage.<\/p>\n<h3>SHIPPING FEES<\/h3>\n<p>The customer is responsible for all shipping fees. Original and return shipping fees are non-refundable.<\/p>\n<p class=\"h4\" style=\"background-color:rgba(160,129,148,0.1);padding:15px;\">Please note that if you create a shipping label through our Returns Center, $7 will be deducted from your refund to cover the return shipping costs.<\/p>\n<h3>EXCHANGES FOR A DIFFERENT ITEM<\/h3>\n<p>We do not process exchanges for different items online. Instead, place a new online order for the item you would like. Complete the return form included with your original order and follow the return process outlined above to return the item you would like to exchange. The customer is responsible for any shipping costs related to new orders. Your refund will be processed once we receive your returned item(s). Merchandise must be returned in original condition (unworn, unwashed, unaltered) with original tags attached.<\/p>\n<h3>FINAL SALE ITEMS<\/h3>\n<p>The following items are considered FINAL SALE and may not be returned or exchanged:<\/p>\n<ul>\n<li>Items with prices ending in .49<\/li>\n<li>Black Friday Sale items<\/li>\n<li>Warehouse Sale items<\/li>\n<li>Anniversary Sale items<\/li>\n<li>Promotional items<\/li>\n<li>Accessories (e.g. hats, handbags, socks, hair accessories, scarves, gloves, sunglasses, belts, key chains)<\/li>\n<li>Jewelry (e.g. necklaces, rings, bracelets, earrings)<\/li>\n<\/ul>\n<h3>PROCESSING TIME<\/h3>\n<p>Returns will be processed within 6-10 weekdays (Mon-Fri, not including weekends or holidays) after we receive your package. You will receive an email confirmation once your return has been processed. If you choose to ship the item back with a label created outside of our Returns Center, you will not receive an email when we have received your package at our warehouse, so please check your tracking number to check on the location of your return. Depending on your method of payment, it may take up to an additional 14 days to see the amount returned to your account.<\/p>\n<p>If you have reason to believe your return should have been accepted and processed by now, please email us at hello@morninglavender.com with your tracking information and let us know the item(s) you returned.<\/p>\n<h3>TERMS & CONDITIONS<\/h3>\n<p>By purchasing from www.morninglavender.com, you accept these terms and conditions.<\/p>\n<p>Returns & Exchanges will be processed <span style=\"color:rgba(160,129,148,1);border-bottom:1px solid rgba(160,129,148,1);\">within 6-10 business days (Mon-Fri, not including holidays) after we receive your package<\/span>. You will receive an email confirmation once your Return or Exchange has been processed. Depending on your credit card, it may take up to an additional 14 days to see the amount returned to your account.<\/p>\n<p>In the event you receive a defective or incorrect item, please email us at hello@morninglavender.com to start the replacement process.<\/p>\n<p>We inspect all merchandise returned to us and reserve the right to deny or refuse a refund based on the condition.<\/p>\n<p>If you have any other issues with your order, please contact us immediately at hello@morninglavender.com so we can help resolve it as soon as possible!<\/p>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        },
+        "2a59fd38-c05f-4d37-8847-c494b6985cda": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h2>Bucket Sale<\/h2><p>\nNo coupon code needed, all discounts are applied as seen on product pages and thus automatically reflected in-cart. Sale applicable to Morning Lavender “Online” shop (morninglavender.com) only. All sales final on discounted products and are not eligible for returns or refunds. Sale cannot be combined with other offers, sales, promotions, or discounts. Sale does not apply to past purchases. \n<\/br><\/br>\nSale ends November 30th, 11:59pm, Pacific Time. Morning Lavender reserves the right to end sales, promos, and discounts at any time without notice.\n<\/p>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "1663652764edc16bd1-1",
+        "2a59fd38-c05f-4d37-8847-c494b6985cda"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16636514237ee4c690",
+    "16636522970f6485d7",
+    "16636518339cca22ed",
+    "16636527649eae5726"
+  ]
+}

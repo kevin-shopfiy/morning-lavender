@@ -1,0 +1,121 @@
+{
+  "type": "footer",
+  "name": "t:sections.footer-group.name",
+  "sections": {
+    "footer-promotions": {
+      "type": "footer-promotions",
+      "blocks": {
+        "footer-promotions-0": {
+          "type": "promotion",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/rack_footer_360x_1.jpg",
+            "title": "Free Shipping",
+            "text": "<p>For orders over $75 in the continental U.S.<\/p>",
+            "button_label": "Shop Now",
+            "button_link": "https:\/\/morninglavender.com\/collections\/new-arrivals"
+          }
+        },
+        "footer-promotions-1": {
+          "type": "promotion",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/image_5.jpg",
+            "title": "VISIT US",
+            "text": "<p>Two locations in Southern California. More to come!<\/p>",
+            "button_label": "Come See Us",
+            "button_link": "https:\/\/morninglavender.com\/pages\/locations"
+          }
+        },
+        "footer-promotions-2": {
+          "type": "promotion",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/burgundy_mannequin.jpg",
+            "title": "GET 10% OFF",
+            "text": "<p>Email sign-up and get 10% off your first order!<\/p>",
+            "button_label": "Sign Me Up",
+            "button_link": "https:\/\/morninglavender.com\/pages\/subscribe"
+          }
+        },
+        "51060c53-3b88-42cf-91d5-16cf48348e53": {
+          "type": "promotion",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/amb_promo.png",
+            "title": "Ambassadors",
+            "text": "<p>Become a #morninglavenderette and be part of our budding jardin.<\/p>",
+            "button_label": "JOIN HERE",
+            "button_link": "https:\/\/morninglavender.com\/pages\/apply-to-le-jardin"
+          }
+        }
+      },
+      "block_order": [
+        "footer-promotions-0",
+        "footer-promotions-1",
+        "footer-promotions-2",
+        "51060c53-3b88-42cf-91d5-16cf48348e53"
+      ],
+      "settings": {
+        "hide_homepage": false,
+        "image_size": "square"
+      }
+    },
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "1494292487693": {
+          "type": "newsletter",
+          "settings": {
+            "show_footer_title": true,
+            "title": "Sign up and save",
+            "text": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.<\/p>",
+            "container_width": 40
+          }
+        },
+        "1494301487049": {
+          "type": "menu",
+          "settings": {
+            "show_footer_title": true,
+            "menu": "shop",
+            "container_width": 20
+          }
+        },
+        "b7750520-1b2f-4db5-95ab-5a2c7ce4ec95": {
+          "type": "menu",
+          "settings": {
+            "show_footer_title": true,
+            "menu": "20-09-footer",
+            "container_width": 20
+          }
+        },
+        "71e23991-3792-46e5-b2a6-93b2254541bd": {
+          "type": "menu",
+          "settings": {
+            "show_footer_title": true,
+            "menu": "brand",
+            "container_width": 20
+          }
+        }
+      },
+      "block_order": [
+        "1494292487693",
+        "1494301487049",
+        "b7750520-1b2f-4db5-95ab-5a2c7ce4ec95",
+        "71e23991-3792-46e5-b2a6-93b2254541bd"
+      ],
+      "settings": {
+        "show_locale_selector": false,
+        "show_currency_selector": false,
+        "show_currency_flags": false,
+        "show_payment_icons": false,
+        "show_copyright": true,
+        "copyright_text": "\/ Woman Owned \/ Curated"
+      }
+    }
+  },
+  "order": [
+    "footer-promotions",
+    "footer"
+  ]
+}

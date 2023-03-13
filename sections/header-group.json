@@ -1,0 +1,67 @@
+{
+  "type": "header",
+  "name": "t:sections.header-group.name",
+  "sections": {
+    "header": {
+      "type": "header",
+      "blocks": {
+        "header-0": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/morning-lavender-logo_400x_b36ff19f-9751-4c88-8a7e-0c91a400db11.webp",
+            "desktop_logo_width": 400,
+            "mobile_logo_width": 160
+          }
+        },
+        "edf3b06d-d191-45e9-91eb-8afcd054da6b": {
+          "type": "announcement",
+          "settings": {
+            "text": "FREE SHIPPING",
+            "link_text": "On orders over $75",
+            "link": ""
+          }
+        },
+        "3bed4a45-f283-475b-917c-d753cc47c0ef": {
+          "type": "announcement",
+          "settings": {
+            "text": "Free Exchanges\/easy returns!",
+            "link_text": "30 days",
+            "link": "https:\/\/returns.morninglavender.com\/?_gl=1*yr9qc*_ga*MTkyNDMwNTY2LjE2NzgyNDMyNDU.*_ga_FYPDXZQ6NR*MTY3ODI0MzI0NS4xLjEuMTY3ODI0MzI0Ny41OC4wLjA."
+          }
+        },
+        "37e930cb-fd27-4c7a-b633-112286e454fc": {
+          "type": "announcement",
+          "settings": {
+            "text": "Ambassador program",
+            "link_text": "Join our jardin",
+            "link": "https:\/\/morninglavender.com\/pages\/apply-to-le-jardin"
+          }
+        }
+      },
+      "block_order": [
+        "header-0",
+        "edf3b06d-d191-45e9-91eb-8afcd054da6b",
+        "3bed4a45-f283-475b-917c-d753cc47c0ef",
+        "37e930cb-fd27-4c7a-b633-112286e454fc"
+      ],
+      "settings": {
+        "main_menu_link_list": "lolo-test-2",
+        "mega_menu_images": false,
+        "main_menu_alignment": "left",
+        "header_style": "sticky",
+        "sticky_index": false,
+        "sticky_collection": false,
+        "announcement_compact": false,
+        "announcement_above_header": false,
+        "toolbar_menu": "20-09-toolbar",
+        "toolbar_social": true,
+        "show_locale_selector": false,
+        "show_currency_selector": true,
+        "show_currency_flags": true
+      }
+    }
+  },
+  "order": [
+    "header"
+  ]
+}
